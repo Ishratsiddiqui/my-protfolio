@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.row{
+width: 80%;
+height: 70px;
+background-color: black;
+
+}
+.row ul{
+    display: flex;
+    list-style: none;
+    color: #ecf015;
+    gap: 50px;
+   
+   
+}
+.row ul li {
+    text-align: center;
+  
+}
+.container h1{
+    font-size: 50px;
+}
+.container h5{
+    background-color: #0e0d0d;
+    color: #f9f9f9; 
+    width: 200px;
+    text-align: center;
+}
+.container1 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+} 
+.html{
+    width: 90px;
+    height: 5px;
+    border-radius: 10px;
+    border: 5px solid rgb(165, 160, 160);
+   
+   
+   
+ 
+}
+.html2{
+    background-color: #ecf015;
+    align-items: center;
+    width: 50px;
+    height: 5px;
+}
+
+
+header {
+    background-color: #ecf015;
+    color: #0e0d0d;
+    
+    padding: 40px 20px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    /* margin-bottom: 10px; */
+    /* border: 4px solid white; */
+    float: right;
+}
+
+.about, .skills, .contact {
+    margin: 40px 0;
+}
+
+.skills ul {
+    list-style: none;
+    /* display: row; */
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0;
+}
+
+.skills li {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+} 
+.container p i{
+    background-color: #ecf015;
+    border-radius: 40px;
+    margin: 10px;
+    width: 30px;
+    height: 20px;
+    color: black;
+    text-align: center;
+}
+
+.footer {
+   
+   display: flex;
+    padding: 20px;
+    gap: 70px;
+}
+ 
+
+
+@media (max-width: 600px) {
+    .skills ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  .row{
+    width: 80%;
+    height: 80px;
+  }
+    header {
+        padding: 20px 10px;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+}
